@@ -3,7 +3,7 @@ import {brainwave} from '../assets'
 import { navigation } from '../helper/helper'
 import { useLocation } from 'react-router-dom'
 import Button from './Button'
-
+import { disablePageScroll,enablePageScroll } from 'scroll-lock'
 const Header = () => {
     const pathname = useLocation()
   return (
