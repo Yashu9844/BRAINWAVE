@@ -5,12 +5,19 @@ import { useLocation } from 'react-router-dom'
 import Button from './Button'
 import MenuSvg from '../assets/svg/MenuSvg'
 import {HambugerMenu} from './design/Header'
+import { enablePageScroll,disablePageScroll } from 'scroll-lock'
 
 const Header = () => {
     const pathname = useLocation()
     const [openNavigation, setOpenNavigation] = React.useState(true);
     const toggleNaviagtion =()=>{
-        setOpenNavigation(!openNavigation);
+        if(openNavigation){
+            enablePageScroll(true)
+            setOpenNavigation(false)
+        }else{
+            
+            setOpenNavigation(true)
+        disablePageScroll(true)        }
     }
     const hanleOnClick=()=>{
         setOpenNavigation(false)
