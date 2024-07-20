@@ -9,7 +9,7 @@ import { enablePageScroll,disablePageScroll } from 'scroll-lock'
 
 const Header = () => {
     const pathname = useLocation()
-    const [openNavigation, setOpenNavigation] = React.useState(true);
+    const [openNavigation, setOpenNavigation] = React.useState(false);
     const toggleNaviagtion =()=>{
         if(openNavigation){
             enablePageScroll(true)
