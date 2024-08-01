@@ -80,6 +80,7 @@ const Hero = () => {
             <img src={heroBackground} width={1440} height={1880} alt="" />
           </div>
           <BackgroundCircles />
+          
         </div>
         <CompanyLogo className="hidden relative z-10 lg:block mt-20"/>
       </div>
