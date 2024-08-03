@@ -4,6 +4,7 @@ import Button from "./components/Button";
 import Collabaration from "./components/Collabaration";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Pricing from "./components/Pricing";
 import Services from "./components/Services";
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
         <Benefits/>
         <Collabaration/>
         <Services/>
+        <Pricing/>
       </div>
       <ButtonGradient />
     </>
