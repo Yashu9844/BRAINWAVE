@@ -27,7 +27,7 @@ const Pricing = () => {
           </div>
           
           <div className=" cursor-pointer  flex justify-center mt-10">
-            <a href="/pricing" className='text-xs font-code font-bold uppercase border-b'>See the ful details</a>
+            <a href="/pricing" className='text-xs font-code font-bold uppercase border-b'>See the full details</a>
           </div>
 
 
